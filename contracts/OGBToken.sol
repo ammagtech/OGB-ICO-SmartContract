@@ -15,7 +15,7 @@ contract OGBToken is ERC20, ERC20Burnable, Ownable {
     using SafeMath for uint256;
     using SafeERC20 for IERC20;
 
-    constructor() ERC20("TOGB Token", "$OGBTest") {
+    constructor() ERC20("OGB Token", "OGB") {
         _mint(address(this), 1000000000*10**18);
     }
 
