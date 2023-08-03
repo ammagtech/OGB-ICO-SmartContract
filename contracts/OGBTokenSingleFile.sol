@@ -842,7 +842,7 @@ interface IDevSupply {
 
 contract OGBToken is ERC20, ERC20Burnable, Ownable {
     using SafeMath for uint256;
-    constructor() ERC20("TOGB Token", "$OGBTest") {
+    constructor() ERC20("Open Games Builders Token", "OGBX") {
         _mint(address(this), 1000000000*10**18);
     }
 
